@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to GreenTech project
 
 ## Project info
 
@@ -52,7 +52,7 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with .
+This project is built with 
 
 - Vite
 - TypeScript
@@ -61,7 +61,9 @@ This project is built with .
 - Tailwind CSS
 
 ## How can I deploy this project?
-
+to deploy this project run 
+ npm run deploy 
+  or
 Simply open [Lovable](https://lovable.dev/projects/035ac17e-244b-4dd7-b92e-fa73ad64cc05) and click on Share -> Publish.
 
 ## I want to use a custom domain - is that possible?
