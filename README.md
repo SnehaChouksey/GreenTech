@@ -62,7 +62,9 @@ This project is built with
 
 ## How can I deploy this project?
 to deploy this project run 
- npm run deploy 
+```sh
+ npm run deploy
+```
   or
 Simply open [Lovable](https://lovable.dev/projects/035ac17e-244b-4dd7-b92e-fa73ad64cc05) and click on Share -> Publish.
 
