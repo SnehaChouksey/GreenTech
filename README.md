@@ -1,4 +1,85 @@
 # Welcome to GreenTech project
+# GreenTech
+**Empowering sustainable waste management through AI-powered solutions.**
+
+---
+
+## 🌟 AI-Powered Waste Identification
+Simply upload or capture an image, and our AI model instantly classifies the waste into categories such as:
+
+♻️ **Recyclable:** Plastic, paper, metal, glass  
+🌿 **Organic:** Food scraps, garden waste  
+⚡ **E-Waste:** Batteries, electronics, chargers  
+☣️ **Hazardous:** Chemicals, medical waste, biohazards  
+
+The system provides **real-time analysis** with high accuracy, helping users make informed disposal decisions.
+
+---
+
+## ♻️ Smart Disposal Recommendations
+Our AI not only identifies waste but also guides you on where and how to dispose of it responsibly:
+
+✅ **Organic Waste** → Composting or fertilizer production  
+✅ **Plastic & Paper** → Recycling plants or drop-off centers  
+✅ **E-Waste** → Certified disposal units or refurbishing programs  
+✅ **Hazardous Waste** → Safe disposal at specialized facilities  
+
+💡 **Encouraging a Circular Economy:** Instead of sending waste to landfills, we connect users with industries that can repurpose materials, promoting sustainability and resource efficiency.
+
+---
+
+## 📍 Find Nearby Waste Processing Facilities
+🔹 **Need a drop-off point? We’ve got you covered!**
+
+✅ Locate nearby recycling centers, composting plants, and waste collection hubs  
+✅ Get directions, facility details, and waste acceptance policies  
+✅ Integrated with **Google Maps** for real-time navigation  
+
+🌍 **Turn waste into a resource by sending it where it’s needed most!**
+
+---
+
+## 📊 Track Your Environmental Impact
+Want to know how much waste you’re diverting from landfills? Our system provides:
+
+✅ **Personal waste footprint analysis**  
+✅ **Monthly sustainability insights**  
+✅ **AI-driven recommendations to reduce waste**  
+
+🌱 **Small actions make a big impact—track your progress and contribute to a greener planet!**
+
+---
+
+## 🔔 Smart Alerts & Continuous AI Learning
+✅ **Reminders** for waste collection schedules  
+✅ **Sustainability tips** & disposal updates  
+✅ **AI learns from user feedback** to improve accuracy  
+
+The more you use GreenTech, the smarter it gets!
+
+---
+
+## 🚀 Try AI Waste Detection Now!
+📸 **Upload an Image & Get Instant Results**  
+🔍 **[Upload Image] (Activate AI Detection)**  
+🌍 **[Find a Nearby Recycling Facility] (Open Interactive Map)**  
+
+💡 **Join the Smart Waste Revolution—Reduce, Recycle, Reuse! 🌍**
+
+---
+
+## 🔧 Technologies
+- **Languages:** TypeScript (96.9%), CSS (1.3%), Python (1.1%)
+- **Frameworks:** [Add any applicable frameworks here]
+- **Other Tools:** [Add any additional tools used]
+
+---
+
+## 🛠️ Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SnehaChouksey/GreenTech.git
+
 
 ## Project info
 
