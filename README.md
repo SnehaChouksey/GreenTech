@@ -1,84 +1,157 @@
-# Welcome to GreenTech project
-# GreenTech
-**Empowering sustainable waste management through AI-powered solutions.**
+
+# ♻️ GreenTech - Smart Waste Detection Platform
+
+> 🌍 AI-powered platform to classify waste and promote sustainable disposal.
 
 ---
 
-## 🌟 AI-Powered Waste Identification
-Simply upload or capture an image, and our AI model instantly classifies the waste into categories such as:
+## 🚀 Features
 
-♻️ **Recyclable:** Plastic, paper, metal, glass  
-🌿 **Organic:** Food scraps, garden waste  
-⚡ **E-Waste:** Batteries, electronics, chargers  
-☣️ **Hazardous:** Chemicals, medical waste, biohazards  
-
-The system provides **real-time analysis** with high accuracy, helping users make informed disposal decisions.
+- 🤖 **AI-Based Waste Detection** – Automatically detects and classifies waste from uploaded or captured images.
+- 🗑️ **Disposal Recommendations** – Provides eco-friendly disposal instructions based on the waste category.
+- 📍 **Nearby Facilities (Coming Soon)** – Find nearby recycling or disposal centers.
+- 📷 **Image Upload & Camera Input** – Simple interface to upload or capture waste images.
+- 📊 **Analytics Dashboard (Planned)** – Track how much waste is categorized and how it’s disposed.
 
 ---
 
-## ♻️ Smart Disposal Recommendations
-Our AI not only identifies waste but also guides you on where and how to dispose of it responsibly:
+## 🧰 Tech Stack
 
-✅ **Organic Waste** → Composting or fertilizer production  
-✅ **Plastic & Paper** → Recycling plants or drop-off centers  
-✅ **E-Waste** → Certified disposal units or refurbishing programs  
-✅ **Hazardous Waste** → Safe disposal at specialized facilities  
-
-💡 **Encouraging a Circular Economy:** Instead of sending waste to landfills, we connect users with industries that can repurpose materials, promoting sustainability and resource efficiency.
-
----
-
-## 📍 Find Nearby Waste Processing Facilities
-🔹 **Need a drop-off point? We’ve got you covered!**
-
-✅ Locate nearby recycling centers, composting plants, and waste collection hubs  
-✅ Get directions, facility details, and waste acceptance policies  
-✅ Integrated with **Google Maps** for real-time navigation  
-
-🌍 **Turn waste into a resource by sending it where it’s needed most!**
+| Technology | Purpose |
+|------------|---------|
+| **Python** | Core programming language |
+| **TensorFlow / Keras / PyTorch** | AI/ML model for waste classification |
+| **Flask / FastAPI** | Backend API |
+| **React / HTML / CSS / JS** | Frontend development |
+| **OpenCV / PIL** | Image processing |
 
 ---
 
-## 📊 Track Your Environmental Impact
-Want to know how much waste you’re diverting from landfills? Our system provides:
+## 🧠 How It Works
 
-✅ **Personal waste footprint analysis**  
-✅ **Monthly sustainability insights**  
-✅ **AI-driven recommendations to reduce waste**  
-
-🌱 **Small actions make a big impact—track your progress and contribute to a greener planet!**
-
----
-
-## 🔔 Smart Alerts & Continuous AI Learning
-✅ **Reminders** for waste collection schedules  
-✅ **Sustainability tips** & disposal updates  
-✅ **AI learns from user feedback** to improve accuracy  
-
-The more you use GreenTech, the smarter it gets!
+1. **User uploads or captures an image** of waste through the UI.
+2. 📥 The image is sent to the backend server.
+3. 🧠 The AI model classifies the waste (e.g., plastic, organic, metal).
+4. 🗑️ Based on the classification, disposal guidelines are shown.
+5. *(Optional)*: Displays **nearby waste facilities** for user convenience.
 
 ---
 
-## 🚀 Try AI Waste Detection Now!
-📸 **Upload an Image & Get Instant Results**  
-🔍 **[Upload Image] (Activate AI Detection)**  
-🌍 **[Find a Nearby Recycling Facility] (Open Interactive Map)**  
+## 🏗️ Project Structure
 
-💡 **Join the Smart Waste Revolution—Reduce, Recycle, Reuse! 🌍**
+```
+├── tailwind.config.ts
+├── index.html
+├── package.json
+├── vite.config.ts
+├── .gitignore
+
+│── src/
+│   ├── components/
+│   │   ├── AIWasteDetector.tsx
+│   │   ├── FeatureCard.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── PageTransition.tsx
+│   ├── hooks/
+│   │   ├── use-mobile.tsx
+│   │   ├── use-toast.ts
+│   ├── lib/
+│   │   ├── utils.ts
+│   ├── pages/
+│   │   ├── About.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Feature.tsx
+│   │   ├── Index.tsx
+│   │   ├── NotFound.tsx
+
+│── public/
+│   ├── favicon.ico
+│   ├── placeholder.svg
+│   ├── robots.txt
+
+│── backend/
+│   ├── app.py        # Flask backend
+│   ├── model.py      # AI model
+```
 
 ---
 
-## 🔧 Technologies
-- **Languages:** TypeScript (96.9%), CSS (1.3%), Python (1.1%)
-- **Frameworks:** [Add any applicable frameworks here]
-- **Other Tools:** [Add any additional tools used]
+## 📡 API Reference
+
+| Method | Endpoint | Description | Request Body | Response |
+|--------|----------|-------------|--------------|----------|
+| `POST` | `/upload-image` | Upload an image for processing | `{ image: File }` | `{ success: true, message: "Uploaded" }` |
+| `GET`  | `/classify` | Classifies last uploaded image | — | `{ label: "plastic", confidence: 92.3 }` |
+| `GET`  | `/get-disposal-info?type=plastic` | Returns disposal tips for waste type | — | `{ tips: [ ... ] }` |
+| `GET`  | `/facilities?location=city-name` *(Planned)* | Find disposal/recycling centers near you | — | `{ locations: [ ... ] }` |
 
 ---
 
-## 🛠️ Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SnehaChouksey/GreenTech.git
+## 🖥️ Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/SnehaChouksey/GreenTech.git
+cd GreenTech
+
+# 2. Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 3. Install backend dependencies
+pip install -r requirements.txt
+
+# 4. Run the backend server
+python backend/app.py  # Or use FastAPI: uvicorn backend.main:app --reload
+
+# 5. Start the frontend (React)
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 🖼️ Screenshots / Demo
+
+> 📌 Coming Soon!  
+> *(Add UI/UX demo GIFs or screenshots here)*
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! 🚀
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Make your changes
+4. Commit and push (`git commit -m 'Add feature'`)
+5. Submit a pull request
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines (coming soon).
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See [LICENSE](LICENSE) file for more details.
+
+---
+
+## 📬 Contact
+
+**Maintainer:** Sneha Chouksey  
+📧 Email: [snehachouksey@example.com](mailto:snehachouksey@example.com)  
+🔗 GitHub: [@SnehaChouksey](https://github.com/SnehaChouksey)
+
+---
+
+> 💡 *GreenTech is a step towards a cleaner, smarter, and more sustainable future.*
+
 
 
 ## Project info
@@ -117,29 +190,7 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with 
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
 ## How can I deploy this project?
 to deploy this project run 
