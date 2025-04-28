@@ -8,10 +8,7 @@
 ## 🚀 Features
 
 - 🤖 **AI-Based Waste Detection** – Automatically detects and classifies waste from uploaded or captured images.
-- 🗑️ **Disposal Recommendations** – Provides eco-friendly disposal instructions based on the waste category.
-- 📍 **Nearby Facilities (Coming Soon)** – Find nearby recycling or disposal centers.
 - 📷 **Image Upload & Camera Input** – Simple interface to upload or capture waste images.
-- 📊 **Analytics Dashboard (Planned)** – Track how much waste is categorized and how it’s disposed.
 
 ---
 
