@@ -17,7 +17,7 @@
 | Technology | Purpose |
 |------------|---------|
 | **Python** | Core programming language |
-| **TensorFlow / Keras / PyTorch** | AI/ML model for waste classification |
+| **TensorFlow / PyTorch** | AI/ML model for waste classification |
 | **Flask / FastAPI** | Backend API |
 | **React / HTML / CSS / JS** | Frontend development |
 | **OpenCV / PIL** | Image processing |
@@ -28,9 +28,9 @@
 
 1. **User uploads or captures an image** of waste through the UI.
 2. 📥 The image is sent to the backend server.
-3. 🧠 The AI model classifies the waste (e.g., plastic, organic, metal).
-4. 🗑️ Based on the classification, disposal guidelines are shown.
-5. *(Optional)*: Displays **nearby waste facilities** for user convenience.
+3. 🧠 The AI model classifies the waste (e.g., plastic, organic, metal,e-waste).
+4. comming soon : 🗑️ Based on the classification, disposal guidelines are shown.
+5. coming soon: Displays **nearby waste facilities** for user convenience.
 
 ---
 
