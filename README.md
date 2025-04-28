@@ -120,6 +120,21 @@ npm start
 > *(Add UI/UX demo GIFs or screenshots here)*
 
 ---
+## 📸 Demo
+
+### 🖼️ Uploaded Image
+
+This is the image submitted by the user for waste classification:
+
+![Uploaded Image](./assets/uploaded.jpg)
+
+---
+
+### 🧐 AI-Detected Output
+
+The AI model identifies the waste type and calculates its density:
+
+![Detected Output](./assets/detected.jpg)
 
 ## 🤝 Contributing
 
