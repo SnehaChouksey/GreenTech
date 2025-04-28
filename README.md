@@ -114,12 +114,6 @@ npm start
 
 ---
 
-## 🖼️ Screenshots / Demo
-
-> 📌 Coming Soon!  
-> *(Add UI/UX demo GIFs or screenshots here)*
-
----
 ## 📸 Demo
 
 ### 🖼️ Uploaded Image
