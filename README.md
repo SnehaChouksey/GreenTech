@@ -93,7 +93,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Vite, TailwindCSS  
+- **Frontend:** React, TailwindCSS  
 - **Backend:** Python, Flask  
 - **Machine Learning:** TensorFlow / Keras *(or PyTorch)*  
 - **Libraries:** OpenCV, NumPy, Pillow (PIL)  
