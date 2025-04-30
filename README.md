@@ -77,12 +77,26 @@
 
 ## 📡 API Reference
 
-| Method | Endpoint | Description | Request Body | Response |
-|--------|----------|-------------|--------------|----------|
-| `POST` | `/upload-image` | Upload an image for processing | `{ image: File }` | `{ success: true, message: "Uploaded" }` |
-| `GET`  | `/classify` | Classifies last uploaded image | — | `{ label: "plastic", confidence: 92.3 }` |
-| `GET`  | `/get-disposal-info?type=plastic` | Returns disposal tips for waste type | — | `{ tips: [ ... ] }` |
-| `GET`  | `/facilities?location=city-name` *(Planned)* | Find disposal/recycling centers near you | — | `{ locations: [ ... ] }` |
+### 📋 Key Parameters
+
+| Parameter | Type | Description |
+|----------|------|-------------|
+| `PIL.Image` | Image Object | For loading and preprocessing waste images |
+| `NumPy Array` | ndarray | Used to convert images into numerical format |
+| `LABELS` | List[str] | Categories like `["Plastic", "E-waste", "Organic", "Paper", "Hazardous", "General Waste"]` |
+| `random.choice` | Function | Used to simulate predictions (for demo/testing) |
+| `Flask API` | API Framework | Handles image uploads and AI predictions |
+| `Model.predict()` | Function | Predicts waste category from image |
+| `Dataset` | TACO / WasteNet (optional) | Used for training the AI model |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, TailwindCSS  
+- **Backend:** Python, Flask  
+- **Machine Learning:** TensorFlow / Keras *(or PyTorch)*  
+- **Libraries:** OpenCV, NumPy, Pillow (PIL)  
 
 ---
 
