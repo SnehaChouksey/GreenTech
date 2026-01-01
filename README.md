@@ -2,6 +2,7 @@
 # ♻️ GreenTech - Smart Waste Detection Platform
 
 > 🌍 AI-powered platform to classify waste and promote sustainable disposal.
+> LIVE : [GreenTech](https://green-tech-7ut9fkmrv-snehachoukseyobc-gmailcoms-projects.vercel.app/)
 
 ---
 
@@ -165,61 +166,9 @@ See [LICENSE](LICENSE) file for more details.
 ## 📬 Contact
 
 **Maintainer:** Sneha Chouksey  
-📧 Email: [snehachouksey@example.com](mailto:snehachouksey@example.com)  
+📧 Email: [snehachouksey](mailto:snehachouksey@2403.com)  
 🔗 GitHub: [@SnehaChouksey](https://github.com/SnehaChouksey)
 
 ---
 
 > 💡 *GreenTech is a step towards a cleaner, smarter, and more sustainable future.*
-
-
-
-## Project info
-
-**URL**: https://lovable.dev/projects/035ac17e-244b-4dd7-b92e-fa73ad64cc05
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/035ac17e-244b-4dd7-b92e-fa73ad64cc05) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-
-
-## How can I deploy this project?
-to deploy this project run 
-```sh
- npm run deploy
-```
-  or
-Simply open [Lovable](https://lovable.dev/projects/035ac17e-244b-4dd7-b92e-fa73ad64cc05) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
